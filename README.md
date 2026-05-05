@@ -6,7 +6,7 @@ Market entry analysis for ABG Motors (India vs Japan) using data analytics
 
 ABG Motors, a Japanese automobile manufacturer, is evaluating entry into the Indian market.
 The objective is to determine whether the company can realistically achieve 10,000 annual vehicle sales and identify the optimal entry strategy.
-
+![Dashboard](dashboard.png)
 🎯 Objectives
 Analyze automobile demand trends in India vs Japan
 Identify high-growth vehicle segments
