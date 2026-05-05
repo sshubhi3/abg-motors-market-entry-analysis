@@ -11,7 +11,6 @@ The objective is to determine whether the company can realistically achieve 10,0
 ![Dashboard](dashboard.png)
 
 🎯 Objectives
-
 Analyze automobile demand trends in India vs Japan
 Identify high-growth vehicle segments
 Evaluate competitive landscape
