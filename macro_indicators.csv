@@ -1,0 +1,11 @@
+﻿country,year,gdp_per_capita_usd,population_millions,cars_per_1000_people,urbanization_pct,market_growth_rate_pct
+India,2020,1900,1380,28,35,-18
+India,2021,2100,1393,29,35,8
+India,2022,2400,1407,30,36,13
+India,2023,2600,1417,31,36,15
+India,2024,2700,1428,32,37,8
+Japan,2020,40000,126,611,91,-11
+Japan,2021,39000,125,612,91,5
+Japan,2022,33000,125,613,92,1
+Japan,2023,33500,124,614,92,1
+Japan,2024,34000,124,615,92,1
