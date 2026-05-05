@@ -141,9 +141,10 @@ SELECT
         (units_sold - LAG(units_sold) OVER (PARTITION BY segment ORDER BY year)) * 100.0
         / NULLIF(LAG(units_sold) OVER (PARTITION BY segment ORDER BY year), 0), 2
     ) AS yoy_growth_pct
+FROM india_car_sales;
 
 
-Strategic Considerations
+📋 Strategic Recommendation
 | Area            | Recommendation                |
 | --------------- | ----------------------------- |
 | Entry Mode      | Local manufacturing (JV/CKD)  |
@@ -152,12 +153,13 @@ Strategic Considerations
 | Launch Strategy | Start with Tier-1 cities      |
 | Positioning     | Reliability + value           |
 
-
 ⚠️ Risks & Considerations
-Risk	Impact	Mitigation
-Import tariffs	High	Local manufacturing
-Competition	High	Segment-focused strategy
-Demand fluctuation	Medium	Phased expansion
+| Risk               | Impact | Mitigation               |
+| ------------------ | ------ | ------------------------ |
+| Import tariffs     | High   | Local manufacturing      |
+| Competition        | High   | Segment-focused strategy |
+| Demand fluctuation | Medium | Phased expansion         |
+
 
 👤 Author
 
@@ -167,5 +169,3 @@ Aspiring Data Analyst
 📌 Note
 
 All figures are approximate and derived from sample datasets for analytical purposes.
-
-FROM india_car_sales;
